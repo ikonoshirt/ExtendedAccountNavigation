@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ikonoshirt_ExtendedAccountNavigation>
+            <version>0.1.0</version>
+        </Ikonoshirt_ExtendedAccountNavigation>
+    </modules>
+    <global>
+        <blocks>
+            <ikonoshirt_extendedaccountnavigation>
+                <class>Ikonoshirt_ExtendedAccountNavigation_Block</class>
+                <rewrite>
+                    <customer>
+                        <account_navigation>ikonoshirt_extendedaccountnavigation/account_navigation</account_navigation>
+                    </customer>
+                </rewrite>
+            </ikonoshirt_extendedaccountnavigation>
+        </blocks>
+    </global>
+</config>

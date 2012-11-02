@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ikonoshirt_ExtendedAccountNavigation>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Customer />
+            </depends>
+        </Ikonoshirt_ExtendedAccountNavigation>
+    </modules>
+</config>
