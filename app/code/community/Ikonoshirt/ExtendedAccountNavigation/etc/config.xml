@@ -9,12 +9,12 @@
         <blocks>
             <ikonoshirt_extendedaccountnavigation>
                 <class>Ikonoshirt_ExtendedAccountNavigation_Block</class>
-                <rewrite>
-                    <customer>
-                        <account_navigation>ikonoshirt_extendedaccountnavigation/account_navigation</account_navigation>
-                    </customer>
-                </rewrite>
             </ikonoshirt_extendedaccountnavigation>
+            <customer>
+                <rewrite>
+                    <account_navigation>Ikonoshirt_ExtendedAccountNavigation_Block_Account_Navigation</account_navigation>
+                </rewrite>
+            </customer>
         </blocks>
     </global>
 </config>
