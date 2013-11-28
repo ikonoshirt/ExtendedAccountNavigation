@@ -11,11 +11,8 @@ class Ikonoshirt_ExtendedAccountNavigation_Block_Account_Navigation
      */
     public function removeLinkByName($name)
     {
-        foreach ($this->_links as $k => $v) {
-            if ($v->getName() == $name) {
-                unset($this->_links[$k]);
-            }
-        }
+        if (array_key_exists($name, $this->_links))
+            unset($this->_links[$name]);
 
         return $this;
     }
