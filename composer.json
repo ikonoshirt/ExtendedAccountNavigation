@@ -1,6 +1,6 @@
 {
-    "name": "sitewards/extendedaccountnavigation",
+    "name": "ikonoshirt/extendedaccountnavigation",
     "type": "magento-module",
-    "description": "Sitewards Extended Account Navigation",
-    "homepage": "https://github.com/sitewards/ExtendedAccountNavigation"
+    "description": "Extended Customer Account Navigation",
+    "homepage": "https://github.com/ikonoshirt/ExtendedAccountNavigation"
 }
