@@ -1,0 +1,9 @@
+{
+  "name": "ikonoshirt/extendedAccountNavigation",
+  "licence": "BSD-3-Clause",
+  "type": "magento-module",
+  "description": "Make it possible to remove customer account navigation items",
+  "suggest": {
+    "magento-hackathon/magento-composer-installer": "*"
+  } 
+}
